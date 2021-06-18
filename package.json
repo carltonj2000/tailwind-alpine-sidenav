@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-alpine-sidenav",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pst": "NODE_ENV=development postcss tailwind.css -o ./layouts/styles.css",
+    "dev": "nodemon -e \"html\" --watch layouts --exec npm run pst"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "nodemon": "^2.0.7",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.2"
+  }
+}
